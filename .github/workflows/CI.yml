@@ -9,7 +9,7 @@ jobs:
       - name: install NodeJS
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20.19.0
       - name: Install dependencies
         run: npm install
       - name: Run tests
@@ -22,7 +22,7 @@ jobs:
       - name: install NodeJS
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20.19.0
       - name: Install dependencies
         run: npm install
       - name: Run linting
@@ -36,7 +36,7 @@ jobs:
       - name: install NodeJS
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20.19.0
       - name: Install dependencies
         run: npm install
       - name: Build for production
