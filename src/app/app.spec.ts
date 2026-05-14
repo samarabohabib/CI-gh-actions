@@ -20,4 +20,8 @@ describe('App', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, selfLearning');
   });
+
+  it('should fail to test test command', () => {
+    expect(true).toBe(true);
+  });
 });
